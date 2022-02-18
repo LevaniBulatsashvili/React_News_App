@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  body {
+    min-width: 300px;
+    max-width: 1400px;
+    margin: 0 auto;
+    background: rgb(207, 204, 194);
+  }
+  
+  h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+  }
+  
+  .PageNotFound {
+    background-color: orange;
+    padding-bottom: 15rem;
+  }
+  
+  .Error {
+    margin-top: 15rem;
+    text-align: center;
+    color: white;
+  }

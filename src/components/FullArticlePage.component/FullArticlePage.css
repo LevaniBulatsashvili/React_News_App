@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  body {
+    min-width: 300px;
+    max-width: 1400px;
+    margin: 0 auto;
+    background: rgb(207, 204, 194);
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f5b913;
+    margin: auto;
+    padding: 1rem 2rem;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  }
+  
+  header h1 {
+    color: #fff;
+    font-family: "McLaren", cursive;
+    font-weight: 200;
+  }
+  
+  header a {
+    text-decoration: none;
+  }
+  
+  header a:visited {
+    color: #fff;
+  }
+  
+  .FullArticle {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    background-color: rgb(223, 165, 58);
+  }
+  
+  .FullArticle p {
+    margin: 20px 20px;
+  }
+  
+  .FullArticleTitle {
+    margin: 1rem 3rem 2rem 3rem;
+  }
+  
+  .FullArticle img {
+    max-width: 500px;
+    max-height: 500px;
+    align-self: center;
+  }
+  
+  .FullArticleContent {
+    margin: 3rem 3rem;
+  }
+  
+  footer {
+    font-size: smaller;
+    text-align: center;
+  }
+  
+  footer a:visited {
+    color: rgb(40, 20, 63);
+  }
+  
+  @media screen and (max-width: 800px) {
+    .FullArticle img {
+      max-width: 400px;
+      max-height: 400px;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .FullArticle img {
+      max-width: 250px;
+      max-height: 250px;
+    }
+  }
