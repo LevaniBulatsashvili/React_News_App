@@ -1,0 +1,231 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  body {
+    min-width: 300px;
+    max-width: 1400px;
+    margin: 0 auto;
+    background: rgb(207, 204, 194);
+    padding: 0;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: rgb(247, 161, 2);
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #f5b913;
+  }
+  
+  header {
+    background-color: #f5b913;
+    margin: auto;
+    padding: 1rem 2rem;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  }
+  
+  header h1 {
+    color: #fff;
+    font-family: "McLaren", cursive;
+    font-weight: 200;
+  }
+  
+  header a {
+    text-decoration: none;
+  }
+  
+  header a {
+    text-decoration: none;
+  }
+  
+  .NewsLogo {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem 0;
+    background-color: rgb(223, 165, 58);
+  }
+  
+  .NewsLogo h2 {
+    color: white;
+  }
+  
+  .NewsFeed {
+    background-color: rgb(223, 165, 58);
+    overflow: auto;
+    white-space: nowrap;
+    margin-top: 1rem;
+    height: 7rem;
+  }
+  
+  .NewsFeed button {
+    background-color: #dd8826a4;
+    cursor: pointer;
+    margin: 1.4rem 8px;
+    color: rgb(0, 0, 0);
+    height: 3rem;
+    width: 10rem;
+  }
+  
+  .NewsFeed button:hover {
+    color: rgba(179, 28, 28, 0.651);
+  }
+  
+  .Search {
+    text-align: center;
+  }
+  
+  .Search input {
+    margin-top: 10px;
+    text-align: center;
+    width: 30rem;
+    height: 2.5rem;
+  }
+  
+  .Search button {
+    background-color: rgb(158, 96, 14);
+    cursor: pointer;
+    border: none;
+    color: white;
+    width: 8rem;
+    height: 2.5rem;
+  }
+  
+  .Search button:hover {
+    color: rgb(255, 145, 0);
+  }
+  
+  .NewsDisplay {
+    background-color: rgb(223, 165, 58);
+    margin-top: 1rem;
+    padding: 2rem 0;
+  }
+  
+  .NewsDisplay div {
+    display: flex;
+    background-color: rgb(209, 126, 17);
+  }
+  
+  .NoArticlesFound {
+    color: rgb(170, 94, 8);
+    margin-top: 1rem;
+    padding: 9rem 0;
+    text-align: center;
+    background-color: rgb(223, 165, 58);
+  }
+  
+  .Article {
+    margin: 3rem 0;
+  }
+  
+  .ArticleImage {
+    flex-direction: column;
+    padding-right: 30%;
+    background-size: cover;
+  }
+  
+  .ArticleImage:hover {
+    flex-direction: column;
+    padding-right: 30%;
+    background-size: cover;
+  }
+  
+  .ArticleImage p {
+    margin: 8px 0px 0px 8px;
+    color: white;
+    width: 100px;
+  }
+  
+  .ArticleDescription {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    row-gap: 2rem;
+  }
+  
+  .ArticleDescription a {
+    color: rgb(218, 188, 151);
+    font-size: larger;
+    margin-top: 3rem;
+    text-decoration: none;
+  }
+  
+  .ArticleDescription a:hover {
+    color: rgba(216, 29, 29, 0.658);
+  }
+  
+  footer {
+    font-size: smaller;
+    text-align: center;
+  }
+  
+  footer a:visited {
+    color: rgb(40, 20, 63);
+  }
+  
+  @media screen and (max-width: 800px) {
+    .NewsFeed {
+      height: 6rem;
+    }
+  
+    .NewsFeed button {
+      height: 3rem;
+    }
+  
+    .Search input {
+      width: 20rem;
+    }
+  
+    .Search button {
+      width: 6rem;
+    }
+  
+    .Article {
+      font-size: x-small;
+    }
+  
+    .ArticleImage {
+      width: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .NewsFeed {
+      height: 6rem;
+    }
+  
+    .NewsFeed button {
+      height: 3rem;
+    }
+  
+    .Search input {
+      width: 13rem;
+    }
+  
+    .Search button {
+      width: 4rem;
+    }
+  
+    .Article {
+      font-size: xx-small;
+    }
+  
+    .ArticleImage {
+      width: 8px;
+    }
+  }
